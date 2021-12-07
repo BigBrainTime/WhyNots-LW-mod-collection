@@ -1,0 +1,158 @@
+OrGate:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 286e58
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.OrGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+NandGate:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 6f08cf
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.NandGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+NorGate:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: e6878e
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.NorGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+XnorGate:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: FF87FF
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.XnorGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+TFlipFlop:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 1b6df2
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.TFlipFlop
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+SRLatch:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                color: 2ad907
+                position: (0, 0, 0.5)
+                scale: (1, 1, 2)
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 1, 0)
+        outputs:
+            -
+                position: (0, 1, 1)
+    logicCode: STF.SRLatch
+    placingRules:
+        offsetDimensions: (1, 2)
+        gridPlacingDimensions: (1, 3)
+        allowFineRotation: false
+
+XorGate:
+    column: "STF"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 1D2f80
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STF.XorGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
