@@ -1,0 +1,8 @@
+alu
+comparator - 4 and 8 bit
+half adder
+full adder
+repeater - minecraft logic
+extender - makes the pulse a certain length - preferably 0 tick
+bcd to 7 seg
+double dabble - not sure if there is an ic equiv here
