@@ -5,7 +5,7 @@ What's included in Basic Gates:
 Advanced Gates coming soon!
 
 Functional gates so far:
-    - Half Adder
-    - Full Adder
+- Half Adder
+- Full Adder
 
 Note: Functional does NOT mean final
