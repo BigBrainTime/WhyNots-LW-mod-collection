@@ -1,0 +1,54 @@
+HalfAdder:
+    column: "STFAG"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: fcba03
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0.25, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-0.25, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STFAG.HalfAdder
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+FullAdder:
+    column: "STFAG"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: ada807
+        inputs:
+            -
+                position: (0.45, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (-0.45, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0.25, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-0.25, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: STFAG.FullAdder
+    placingRules:
+        gridPlacingDimensions: (2, 1)
