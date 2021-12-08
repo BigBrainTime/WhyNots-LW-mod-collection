@@ -9,8 +9,8 @@ namespace STFAG
     {
         protected override void DoLogicUpdate()
         {
-            base.Outputs[0].On = (((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On) & !base.Inputs[2].on) | (!((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On)) & base.Inputs[2].on));
-            base.Outputs[1].On = ((base.Inputs[0].On & base.Inputs[1].On) | (((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On)) & base.Inputs[2].on));
+            base.Outputs[0].On = (((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On) & !base.Inputs[2].On) | (!((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On)) & base.Inputs[2].On));
+            base.Outputs[1].On = ((base.Inputs[0].On & base.Inputs[1].On) | (((base.Inputs[0].On & !base.Inputs[1].On) | (!base.Inputs[0].On & base.Inputs[1].On)) & base.Inputs[2].On));
         }
     }
 }
