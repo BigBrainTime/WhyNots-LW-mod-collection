@@ -7,8 +7,10 @@ namespace STF
 {
     public class TFlipFlop : LogicComponent
     {
-        protected override void DoLogicUpdate() {
-            if (base.Inputs[0].On){
+        protected override void DoLogicUpdate()
+        {
+            if (base.Inputs[0].On)
+            {
                 base.Outputs[0].On = !base.Outputs[0].On;
                 return;
             }
