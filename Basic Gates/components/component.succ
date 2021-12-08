@@ -115,7 +115,7 @@ SRLatch:
     prefab:
         blocks:
             -
-                color: 2ad907
+                color: 016301
                 position: (0, 0, 0.5)
                 scale: (1, 1, 2)
         inputs:
