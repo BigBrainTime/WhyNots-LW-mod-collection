@@ -1,0 +1,313 @@
+BCD:
+    column: STFAG
+    category: null
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 140
+                    g: 40
+                    b: 106
+                scale:
+                    x: 4
+                    y: 2
+                    z: 1
+                position:
+                    x: -0.5
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+                position:
+                    x: -2
+                    y: 2
+                    z: 0
+            -
+                length: 0.6
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+                position:
+                    x: -1
+                    y: 2
+                    z: 0
+            -
+                length: 0.6
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+                position:
+                    x: 0
+                    y: 2
+                    z: 0
+            -
+                length: 0.6
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 2
+                    z: 0
+            -
+                length: 0.6
+                rotation:
+                    x: 270
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 1
+                    z: -0.25
+        outputs:
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 1.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 0
+                    y: 1.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -1
+                    y: 1.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -2
+                    y: 1.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -1
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -2
+                    y: 0.5
+                    z: 0.5
+    logicCode: STFAG.BCD
+    logicScript: null
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 1
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: true
+        flippingPointHeight: -0.25
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+CAdder:
+    column: STFAG
+    category: null
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 37
+                    g: 217
+                    b: 71
+                scale:
+                    x: 3
+                    y: 1
+                    z: 1
+                position:
+                    x: 0
+                    y: 0
+                    z: 0
+            -
+                color:
+                    r: 255
+                    g: 1
+                    b: 1
+                scale:
+                    x: 1
+                    y: 1
+                    z: 1
+                position:
+                    x: -2
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                rotation:
+                    x: 270
+                    y: 0
+                    z: 0
+                position:
+                    x: -2
+                    y: 0.5
+                    z: -0.25
+            -
+                length: 0.6
+                rotation:
+                    x: 270
+                    y: 0
+                    z: 0
+                position:
+                    x: -1
+                    y: 0.5
+                    z: -0.25
+            -
+                length: 0.6
+                rotation:
+                    x: 270
+                    y: 0
+                    z: 0
+                position:
+                    x: 0
+                    y: 0.5
+                    z: -0.25
+            -
+                length: 0.6
+                rotation:
+                    x: 270
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 0.5
+                    z: -0.25
+        outputs:
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -2
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: -1
+                    y: 0.5
+                    z: 0.5
+            -
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+                position:
+                    x: 1
+                    y: 0.5
+                    z: 0.5
+    logicCode: STFAG.CAdder
+    logicScript: null
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 1
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false

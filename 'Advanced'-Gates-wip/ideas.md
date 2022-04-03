@@ -1,11 +1,12 @@
 - [x] half adder
 - [x] full adder
 - [] alu
-- [] comparator - 4 and 8 bit
+- [] comparator
 - [] repeater - minecraft logic
 - [] extender - makes the pulse a certain length - preferably 0 tick
-- [] bcd to 7 seg
+- [x] bcd to 7 seg
 - [] conditional adder
+- [] double dabble
 - [] demux
 - [] mux
 - [] register

@@ -7,6 +7,10 @@ Advanced Gates coming soon!
 Functional gates so far:
 - Half Adder
 - Full Adder
+- BCD to 7 Seg
+
+WIP gates:
+- Conditional Adder - For Double Dabbles
 
 Note: Functional does NOT mean final
 
